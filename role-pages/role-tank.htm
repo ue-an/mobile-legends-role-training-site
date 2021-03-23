@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="../images/Mythical_Glory.png">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/custom-css.css">
+    <title>ML Heroes</title>
+</head>
+<body>
+    <div id="main">
+        <div class="jumbotron bg-dark top">
+            <h1>Tank</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="collapse_target">
+                <span class="navbar-text"></span>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Finals_index.htm">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#assassin-modal" href="#">Assassin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#fighter-modal" href="#">Fighter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#mage-modal" href="#">Mage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#marksman-modal" href="#">Marksman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#support-modal" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: cyan;" class="nav-link" data-toggle="modal" data-target="#tank-modal" href="#">Tank</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="modal fade" id="assassin-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Assassin</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Assassin_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good assassin.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-assassin.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="fighter-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Fighter</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Fighter_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good fighter.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-fighter.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    
+        <div class="modal fade" id="mage-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Mage</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Mage_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good mage.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-mage.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="marksman-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Marksman</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Marksman_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good marksman.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-marksman.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="support-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Support</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Support_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good support.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-support.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tank-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Tank</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Tank_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good tank.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-tank.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row heroes-row">
+            <div class="col-md-4 content-hero">
+                <div class=" hero-pic">
+                    <img src="../images/heroes/khufra.png" alt="">
+
+                    <br>
+                    <div class="col-sm-12 bg-dark name-strip">
+                        <h2 class="headings">Khufra</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Tyrant's Revenge</h4>
+                    <p>(Active)
+                        <br>
+                        Khufra pulls the bandage on his arms to launch himself in the specified direction, dealing Physical Damage equal to 80 plus 10(+1.5% Total Physical ATK)% of his MAx HP to all enemy units on the path. When blinking to the furthest distance or encountering a first enemy hero, Khufra will immediately stop, dealing Physical Damage equal to 80 plus 10(+1.5% Total Physical ATK) of his Max HP to enemies nearby and then knocking them in the air for up to 1.1s.
+                    </p>
+                    <h4 class="ability-name">Bouncing Ball</h4>
+                    <p>(Active)
+                        <br>
+                        Khufra uses his bandage to wrap himself into a magic bouncing ball, increasing his own Physical and Magic Defense by 75%. Enemies trying to use blink skills to move across Khufra will be knocked airborne. Each time the magic bouncing ball hits the ground, it will deal Magic Damage equal to 30 plus 6(+2% Total Physical ATK)% of his Max HP to enemies nearby and slow them by 80%. Lasts 0.5s.
+                    </p>
+                    <h4 class="ability-name">Tyrant's Rage</h4>
+                    <p>(Active)
+                        <br>
+                        Khufra pulls back all enemy targets around him toward the front, dealing 300(+100%Total Physical Attack) points of Physical Damage and slowing them down for 1.25 seconds. If the enemies are knocked against walls, an extra Physical Damage equals to 150% of this skill's damage will be inflicted upon them, and they will be stunned, instead of slowed.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Courage Bulwark</li>
+                        <li>Warrior Boots</li>
+                        <li>Athena's Shield</li>
+                        <li>Immortality</li>
+                        <li>Antique Cuirass</li>
+                        <li>Queen's Wings</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/grock-mobile-legends.png" alt="">
+
+                    <br>
+                    <div class="col-sm-12 bg-dark name-strip">
+                        <h2 class="headings">Grock</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Power of Nature</h4>
+                    <p>(Active)
+                        <br>
+                        Raises weapon to sweep nearby enemies, dealing 300(+40%Extra Physical ATK) [C3physical damage] and slowing them down for 2 seconds. Damage scales with charge time. Stay near to wall while casting this skill to become immune to Crowd Control effects.
+                    </p>
+                    <h4 class="ability-name">Guardian's Barrier</h4>
+                    <p>(Active)
+                        <br>
+                        Grock releases a shockwave towards a designated location, dealing 300 (+50% Total Physical ATK) points of Physical Damage. Then the shockwave becomes a stone wall that blockes enemies for 5s.
+                    </p>
+                    <h4 class="ability-name">Wild Charge</h4>
+                    <p>(Active)
+                        <br>
+                        Grock charges forward, dealing 300 (+50% Total Physical ATK) points of Physical Damage to enemies on the path. Hitting a wall or turret allows him to deal 600 (+150% Total Physical ATK) points of Physical Damage to the nearby enemies and reduce the CD of this skill by 30%.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Courage Mask</li>
+                        <li>Warrior Boots</li>
+                        <li>Athena's Shield</li>
+                        <li>Dominance Ice</li>
+                        <li>Immortality</li>
+                        <li>Queen's Wings</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/hylos.jpg" alt="">
+
+                    <br>
+                    <div class="col-sm-12 bg-dark name-strip">
+                        <h2 class="headings">Hylos</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Law and Order</h4>
+                    <p>(Active)
+                        <br>
+                        Hylos stores nature's energy to lock down the target and deals 300 (+80 % Total Magic Power) points of Magic Damage and stuns the target for 1s.
+                    </p>
+                    <h4 class="ability-name">Ring of Punishment</h4>
+                    <p>(Active)
+                        <br>
+                        Hylos releases the Ring of Punishment, every second dealing to surrounding enemies 95 (+20% Total Magic Power) points of Magic Damage and slowing them by 6% and Attack Speed by 5%. Stacks up to 10 times. Each stack lasts 2.5s and increaes 7.5% damage of Ring of Punishment. Ring of Punishment will continuously use 30 points of Mana when its active. Use Again: Hylos stops releasing Ring of Punishment.
+                    </p>
+                    <h4 class="ability-name">Glorious Pathway</h4>
+                    <p>(Active)
+                        <br>
+                        Hylos creates a pathway for 6s. He recovers 4% of Max HP and is immune to Slowing Effect while on the pathway. Allies moving towards the pathway will have their Movement Speed increased by 60%, enemies moving away from the pathway will have their Movement Speed Reduced by 70%.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Cursed Helmet</li>
+                        <li>Warrior Boots</li>
+                        <li>Thunder Belt</li>
+                        <li>Dominance Ice</li>
+                        <li>Demon's Advent</li>
+                        <li>Heart of Steel</li>
+                        <li>Blade Armor</li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Franco.png" alt="">
+                    <br>
+
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Franco</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Iron Hook</h4>
+                    <p>(Active)
+                        <br>
+                        Franco launches an iron hook at a designated direction and hooks the first target hit, dealing 550 / 600 / 650 / 700 / 750 / 800 (+100% Total Physical Attack) points of Physical Damage and pulling the unit towards Franco.
+                    </p>
+                    <h4 class="ability-name">Fury Shock</h4>
+                    <p>(Active)
+                        <br>
+                        Franco lashes out his hammer, dealing 300 / 330 / 360 / 390 / 420 / 450 + 4% of his Max HP Physical Damage to nearby enemies and slowing them by 70% for 1.5 seconds.
+                    </p>
+                    <h4 class="ability-name">Bloody Hunt</h4>
+                    <p>(Active)
+                        <br>
+                        Franco suppresses an enemy unit for 1.8 seconds, and then hacks at them for 6 times continuously, dealing 60 / 80 / 100 (+70% Total Physical Attack) points of Physical Damage with each strike.
+                        This skill can be interrupted by Crowd Control
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Dominance Ice</li>
+                        <li>Magic Shoes</li>
+                        <li>Oracle</li>
+                        <li>Courage Bulwark</li>
+                        <li>Cursed Helmet</li>
+                        <li>Sky Guardian Helmet</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Johnson.png" alt="">
+                    <br>
+
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Johnson</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Deadly Pincers</h4>
+                    <p>(Active)
+                        <br>
+                        Johnson throws a spanner in the designated direction, dealing 150 / 170 / 190 / 210 / 230 / 250 (+200% Total Physical Defense) points of Magic Damage to enemies in its path and stunning enemies in the spanner's destination for 0.8 second.
+                    </p>
+                    <h4 class="ability-name">Electromag Rays</h4>
+                    <p>(Active)
+                        <br>
+                        Johnson raises his shield for 4 seconds, continuously dealing 100 / 115 / 130 / 145 / 160 / 175 (+40% Total Magic Power) points of Magic Damage to enemies in a fan-shaped area and slowing them by 20%.
+                        While this skill is active, Johnson can cast skills or Basic Attack.
+                    </p>
+                    <h4 class="ability-name">Rapid Touchdown</h4>
+                    <p>(Active)
+                        <br>
+                        Johnson permanently increases his Physical Defense by 10% / 20% / 30%.
+                        Active: Johnson transforms into a car, slowly accelerating and during this period, 1 ally can be brought along with Johnson to ride in the car. After 2 seconds, Johnson will then accelerate forward. Johnson can also tap the skill Throttle to immediately accelerate forward.
+                        While driving, Johnson is immune to Crowd Control. Johnson can tap the skill Brake to stop the car immediately.
+                        Upon hitting an enemy hero or an obstacle, Johnson will crash, dealing 400 / 500 / 600 (+160% Total Magic Power) - 700 / 875 / 1050 (+280% Total Magic Power)
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Demon’s Advent</li>
+                        <li>Warrior Boots</li>
+                        <li>Cursed Helmet</li>
+                        <li>Blade Armor</li>
+                        <li>Oracle</li>
+                        <li>Sky Guardian Helmet</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Minotaur.png" alt="">
+                    <br>
+
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Minotaur</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Despair Stomp</h4>
+                    <p>(Active)
+                        <br>
+                        Minotaur jumps towards a designated location and deals 280 / 295 / 310 / 325 / 340 / 355 (+60% Total Physical Attack) points of Physical Damage to all surrounding enemies and slows them by 65% for 2 seconds. This skill recovers Rage.
+                        Rage State: The area of effect becomes much larger and deals 1.5% of the target's Max HP of Physical Damage.
+                    </p>
+                    <h4 class="ability-name">Motivation Roar</h4>
+                    <p>(Active)
+                        <br>
+                        Minotaur motivates himself and surrounding allies, regenerating his HP based on the damage he has taken, while allies regenerates 260 / 280 / 300 / 320 / 340 / 360 HP. Within 2 seconds, Minotaur will also recover Rage if he is hit by a
+                        Basic Attack or turret damage. Rage State: Within the next 2 seconds, Minotaur will also recover HP when hit by Basic Attack or turret damage.
+                    </p>
+                    <h4 class="ability-name">Minoan Fury</h4>
+                    <p>(Active)
+                        <br>
+                        Minotaur enters a Rage-saving state where he continuously recovers Rage - the longer Minotaur charges this skill, the more Rage he recovers.
+                        Rage State: Minotaur smashes the ground 3 times, sending 3 shockwaves to surrounding enemies that knocks them airborne and slows them by 70% each. The first 2 shockwaves deals 180 / 240 / 300 (+85% Total Physical Attack) points of Physical Damage while the 3rd shockwave deals 200 / 250 / 300 (+85% Total Physical Attack) points of True Damage.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Cursed Helmet </li>
+                        <li>Rapid Boots </li>
+                        <li>Thunder Belt</li>
+                        <li>Oracle</li>
+                        <li>Courage Bulwark</li>
+                        <li>Sky Guardian Helmet</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Tigreal.png" alt="">
+                    <br>
+
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Tigreal</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Attack Wave</h4>
+                    <p>(Active)
+                        <br>
+                        Tigreal smashes the ground and unleashes 3 shockwaves in a fan-shaped area in front of him, each dealing 270 / 300 / 330 / 360 / 390 / 420 (+70% Total Physical Attack) Physical Damage to enemies hit and slowing them by up to 30% for 1.5 seconds according to the distance between the target and himself.
+                        The first shockwave slows enemies by 10%, and the slow is increased by 10% for each of the following shockwaves.
+                        Enemies can take up to 810 / 900 / 990 / 1080 / 1170 / 1260 (+210% Total Physical Attack) Physical Damage if they're hit by all 3 shockwaves.
+                    </p>
+                    <h4 class="ability-name">Sacred Hammer</h4>
+                    <p>(Active)
+                        <br>
+                        Tigreal charges in a specified direction and knocking back enemies hit, dealing (+100% Total Physical Attack) points of Physical Damage.
+                        Tap again: Tigreal launches a second attack, dealing 280 / 300 / 320 / 340 / 360 / 380 (+60% Total Physical Attack) points of Physical Damage and knocking them up for 1 second.
+                    </p>
+                    <h4 class="ability-name">Implosion</h4>
+                    <p>(Active)
+                        After a brief delay, Tigreal pulls surrounding enemies to himself dealing 270 / 350 / 430 (+130% Total Physical Attack) points of Physical Damage and stunning them for 1.5 seconds. This skill can be interrupted by transformation and knock up effects.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Cursed Helmet</li>
+                        <li>Rapid boots </li>
+                        <li>Bloodthirsty King</li>
+                        <li>Demon’s Advent</li>
+                        <li>Oracle</li>
+                        <li>Dominance Ice</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Uranus.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Uranus</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Ionic Edge</h4>
+                    <p>(Active)
+                        <br>
+                        Uranus releases two energy spheres that orbit around him, dealing 125 / 140 / 155 / 170 / 185 / 200 (+30% Total Magic Power) Magic Damage to enemies, reducing their Physical Attack and Magic Power by 15% and slowing them by 30% for 2 seconds.
+                        Damaging an enemy leaves a stack on them for 5 seconds with a maximum limit of 4 stacks per target. Each stack increases the damage dealt by this skill by 40%, up to 320% with 4 stacks. This skill can only inflict 1 stack to an enemy per cast.
+                    </p>
+                    <h4 class="ability-name">Transcendent Ward</h4>
+                    <p>(Active)
+                        <br>
+                        Uranus charges towards the targeted location, dealing 80 / 104 / 128 / 152 / 176 / 200 (+20% Total Magic Power) Magic Damage to enemies along the way. Uranus deals 160 / 208 / 256 / 304 / 352 / 400 (+80% Total Magic Power) Magic Damage to enemies upon arrival at the location and slowing them by 25%.
+                        Meanwhile, Uranus generates an energy shield that absorb up to 300 / 390 / 480 / 570 / 660 / 750 (+200% Total Magic Power) points of damage for 4 seconds. The shield explodes when it is depleted or its duration ends, dealing 300 / 390 / 480 / 570 / 660 / 750 (+200% Total Magic Power) Magic Damage to nearby enemies.
+                    </p>
+                    <h4 class="ability-name">Consecration</h4>
+                    <p>(Active)
+                        <br>
+                        Uranus unleashes energy stored within his body to remove slows on himself and restore 200 / 300 / 400 points of HP immediately, while increasing his Movement Speed by 60% for 8 seconds. (The speed gained decays over time)
+                        Uranus immediately acquires 5 / 10 / 15 stacks of Radiance.png, increasing 20% / 25% / 30% of Shield and Regen received within 8 seconds, during which he can't be slowed.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Demon Boots </li>
+                        <li>Dominance Ice</li>
+                        <li>Oracle</li>
+                        <li>Bruteforce Breastplate</li>
+                        <li>Guardian Helmet/Immortality</li>
+                        <li>Courage Mask</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h5>Developed by Group JIDA</h5>
+        </div>
+    </div>
+    
+    <script src="../bootstrap/jquery-3.5.1.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

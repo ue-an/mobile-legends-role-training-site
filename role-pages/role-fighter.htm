@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="../images/Mythical_Glory.png">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/custom-css.css">
+    <title>ML Heroes</title>
+</head>
+<body>
+    <div id="main">
+        <div class="jumbotron bg-dark top">
+            <h1>Fighter</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="collapse_target">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Finals_index.htm">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#assassin-modal" href="#">Assassin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: cyan;" class="nav-link" data-toggle="modal" data-target="#fighter-modal" href="#">Fighter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#mage-modal" href="#">Mage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#marksman-modal" href="#">Marksman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#support-modal" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#tank-modal" href="#">Tank</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="modal fade" id="assassin-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Assassin</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Assassin_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good assassin.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-assassin.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="fighter-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Fighter</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Fighter_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good fighter.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-fighter.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    
+        <div class="modal fade" id="mage-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Mage</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Mage_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good mage.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-mage.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="marksman-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Marksman</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Marksman_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good marksman.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-marksman.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="support-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Support</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Support_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good support.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-support.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tank-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Tank</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Tank_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good tank.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-tank.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row heroes-row">
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/leomord.png" alt="">
+                    <br>
+                    <div class="col-sm-12 bg-dark name-strip">
+                        <h2 class="headings">Leomord</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Decimation Assault</h4>
+                    <p>(Active)
+                        <br>
+                        Leomord quickly charge towards a designated direction, dealing 300 (+50% Total Physical ATK) points of Physical Damage to enemies near his path and destination. Slows enemy units by 30%. Lasts 1s.
+                    </p>
+                    <h4 class="ability-name">Phantom Seed</h4>
+                    <p>(Active)
+                        <br>
+                        Leomord calls for Barbiel to rush into the battlefield and knock back all enemies in its way. Barbiel deasl 350 (+100% Total Physical ATK) points of Physical Damage to enemy units in his path, slowing them by 35%. Lasts 1s. If Barbiel comes in cotnact with Leomord, they will enter a mounted state. Mounted State: Leomord gains a whole new set of skills. He can use Basic Attacks writhin a circular area, even whiling moving, Additionally, Leomord increases his Movement Speed by 60 points and Physical/Magical Defense by 40 points.
+                    </p>
+                    <h4 class="ability-name">Phantom Stomp</h4>
+                    <p>(Active)
+                        <br>
+                        Barbiel leaps forward, dealing 375(+100% Total Physical Attack) points of Physical Damage to enemy units in the area where he lands, slowing them by 60%.
+                    </p>
+                    <h4 class="ability-name">Phantom Charge</h4>
+                    <p>(Active)
+                        <br>
+                        Barbiel charges forward and knocks back all enemies in the lane. Deals 300(+50% Total Physical Attack) points of Physical Damage.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Magic Shoes</li>
+                        <li>Bloodlust Axe</li>
+                        <li>Athena's Shield</li>
+                        <li>Endless Battle</li>
+                        <li>Blade of Despair</li>
+                        <li>Brute Force Breastplate</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/violet.png" alt="">
+                    <br>
+                    <div class="col-sm-12 bg-dark name-strip">
+                        <h2 class="headings">Guinevere</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Energy Wave</h4>
+                    <p>(Active)
+                        <br>
+                        Guinevere sends an energy orb to the designated direction, dealing 300 (+130% Total Magic Power) points of Magic Damage to the enemies and slowing them by 50%. Lasts 1.2s. Meanwhile, the CD of her skills are reduced by 1s.
+                    </p>
+                    <h4 class="ability-name">Magic Thump</h4>
+                    <p>(Active)
+                        <br>
+                        Guinevere performs a thump to the designated place. If she hits enemies, she will knock them airborne by her super magic for 1s and deal 250 (+80% Total Magic Power) points of Magic Damage to them. Shortly after she uses this skill, she obtains new skill Spatial Migration.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Arcane Boots</li>
+                        <li>Calamity Reaper</li>
+                        <li>Necklace of Durance</li>
+                        <li>Fleeting Time</li>
+                        <li>Divine Glaive</li>
+                        <li>Holy Crystal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/xborg.png" alt="">
+                    <br>
+                    <div class="col-md-12 bg-dark name-strip">
+                        <h2 class="headings">X-Borg</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Fire Missiles</h4>
+                    <p>(Active)
+                        <br>
+                        X. Borg activates the flamethrower and fires in the chosen direction, dealing Damage continuously. Enemies whose tempeture rises to the limit will take True Damage. Armorless State: X.Borg adjusts the flamethrower to narrow the gunfire coverage and extend the shooting range, reducing the damage of that in Armor State.
+                    </p>
+                    <h4 class="ability-name">Fires Stake</h4>
+                    <p>(Active)
+                        <br>
+                        X.Borg shoots 6 Fire Stakes at the edge of the fan-shaped indictator. 1.2s later, the stakes are taken back into his body. Each stake deals 50 (+20% Total Physical ATK)Physical Damage to enemies in the path and pulls them back. If the Fire Stake touches the Firaga supplies in its path, it will take them back as well. Armorless State: X.Borg adjusts the Fire Stake Launcher to send the stakes farther away and shortens the gap between the stakes.
+                    </p>
+                    <h4 class="ability-name">Last Insanity</h4>
+                    <p>(Active)
+                        <br>
+                        X.Borg charges forward in a designated direction, shooting fire around to deal 200 (+100% Total Physical ATK) points of Physical Damage and slowing enemies by 25%. If he hits an enemy hero during the charge, he will stop charging and slow the target by extra 40%. The whole process lasts 3s. Then he self-explodes to cause 400 and 15% of True Damage of target's Max HP. The explosion destroys the current Firaga Armor and deals 50% damag and puts himself under the Armorless State, where this skill cannot be used. He can move again according to the direction of Joystick after he self-explodes. Use Again: End the falme spray and self-explode right away.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Warrior Boots</li>
+                        <li>Immortality</li>
+                        <li>Bloodlust Axe</li>
+                        <li>Blade of Despair</li>
+                        <li>Athena's Shield</li>
+                        <li>Queen's Wings</li>
+                        <li>Hunter Strike</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Alucard.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Alucard</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Groundsplitter</h4>
+                    <p>(Active)
+                        <br>
+                        Alucard jumps to a designated location and launches a slash, dealing 250 / 270 / 290 / 310 / 330 / 350 (+110% Extra Physical Attack) points of Physical Damage.
+                    </p>
+
+                    <h4 class="ability-name">Whirling Smash</h4>
+                    <p>(Active)
+                        <br>
+                        Alucard slashes at nearby enemies, dealing 300 / 320 / 340 / 360 / 380 / 400 (+120% Extra Physical Attack) points of Physical Damage
+                    </p>
+
+                    <h4 class="ability-name">Fission Wave</h4>
+                    <p>(Active)
+                        <br>
+                        Alucard increases his Physical Lifesteal by 40% / 50% / 60%, absorbs the energy of enemies within the designated area and slow them by 40% for 4 seconds. Within 8 seconds, Pursuit is triggered whenever he deals damage to the marked targets.
+                        Use Again: Alucard fires a powerful wave forward, dealing 440 (+200% Extra Physical Attack) points of Physical Damage to enemies in the area.
+                    </p>
+
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Haas’s Claw</li>
+                        <li>Swift Boots</li>
+                        <li>Berserker’s Fury</li>
+                        <li>Endless Battle</li>
+                        <li>Wings of the Apocalypse Queen/li>
+                        <li>Immortality</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Badang.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Badang</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Qigong Fist</h4>
+                    <p>(Active)
+                        <br>
+                        Badang coheres all his strength to his fists and performs an overwhelming Fist Wind, dealing 220 / 255 / 290 / 325 / 360 / 395 (+70% Total Physical Attack) points of Physical Damage to the enemies on the path and slowing them by 30%.
+                        The damage of this skill can trigger Basic Attack effects and grants 1 stack of Basic Attack.png for Chivalry Fist.
+                        The fist wind explodes when it hits an obstacle, dealing an extra 155 / 180 / 205 / 230 / 255 / 280 (+50% Total Physical Attack) points of Physical Damage to enemies hit.
+                    </p>
+
+                    <h4 class="ability-name">Fist Break</h4>
+                    <p>(Active)
+                        <br>
+                        Badang dashes towards the designated direction, dealing 230 / 250 / 270 / 290 / 310 / 330 (+50% Total Physical Attack) points of Physical Damage to enemies along the way.
+                    </p>
+
+                    <h4 class="ability-name">Fist Crack</h4>
+                    <p>(Active)
+                        <br>    
+                        Badang quickly throws his fists in a designated direction, gaining a shield that absorbs 500 / 750 / 1000 (+150% Total Physical Attack) points of damage that makes him temporarily immune to Crowd Control effects, and dealing 70 / 110 / 150 (+50% Total Physical Attack) points of Physical Damage to enemies for up to 10 times for a maximum damage of 700 / 1100 / 1500 (+500% Total Physical Attack) Physical Damage.
+                    </p>
+
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Swift Boots</li>
+                        <li>Endless Battle</li>
+                        <li>Immortality</li>
+                        <li>Queen’s Wings</li>
+                        <li>Blade of Despair</li>
+                        <li>Golden Staff</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Dyrroth.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Dyrroth</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Burst Strike</h4>
+                    <p>(Active)
+                        <br>
+                        Dyrroth releases Burst Strike in a designated direction, dealing 200 / 250 / 300 / 350 / 400 / 450 (+60% Extra Physical Attack) points of Physical Damage to enemies along the way and slowing them by 25% for 1.5 seconds. Abyss Enhanced: Burst Strike has a longer range, deals 140% of the original damage or 280 / 350 / 420 / 490 / 560 / 630 (+84% Extra Physical Attack) Physical Damage, and slows enemies hit by 50%.
+                        Damage decays against the same target. This skill also only deals 75% damage to minions
+                    </p>
+
+                    <h4 class="ability-name">Spectre Step </h4>
+                    <p>(Active)
+                        <br>
+                        Dyrroth dashes in the designated direction. He will stop when he hits a target and deal 230 / 255 / 280 / 305 / 330 / 355 (+60% Extra Physical Attack) points of Physical Damage to them. Use Again: Dyrroth will lock onto a target and releases Fatal Strike, dealing 345 / 390 / 435 / 480 / 525 / 570 (+120% Extra Physical Attack) points of Physical Damage and reducing the target's Physical Defense by 50% for 4 seconds.
+                        Abyss Enhanced: Fatal Strike will deal 150% of the original damage or 517.5 / 585 / 652.5 / 720 / 787.5 / 855 (+180% Extra Physical Attack) Physical Damage, slow the target by 90% and reduce the target's Physical Defense by 75% for 4 seconds.
+                    </p>
+
+                    <h4 class="ability-name">Abysm Strike</h4>
+                    <p>(Active)
+                        <br>
+                        Dyrroth quickly charges and releases Abysm Strike, dealing Physical Damage equal to 650 / 950 / 1250 (+250% Extra Physical Attack) points plus 20% of enemies' lost HP to enemies along the way and slow them by 55% for 0.8 second.
+                    </p>
+
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Swift Boots</li>
+                        <li>Bloodlust Axe</li>
+                        <li>Blade of Despair </li>
+                        <li>Queen’s Wings</li>
+                        <li>Endless Battle</li>
+                        <li>Immortality</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Silvanna.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Silvanna</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Cometic Lance</h4>
+                    <p>(Active)
+                        <br>
+                        Silvanna strikes with her lance, dealing 150 / 170 / 190 / 210 / 230 / 250 (+70% Total Magic Power) Magic Damage to all enemies in the path and stunning the first enemy hit for 1 second. If this skill hits a target, Silvanna can dash in a designated direction and strike with her Lance again, dealing 250 / 280 / 310 / 340 / 370 / 400 (+100% Total Magic Power) Magic Damage to enemies nearby.
+                    </p>
+
+                    <h4 class="ability-name">Spiral Strangling</h4>
+                    <p>(Active)
+                        <br>
+                        Silvanna stabs her Lance in a designated direction for 6 times, each time dealing 165 / 183 / 201 / 219 / 237 / 255 (+45% Total Magic Power) Magic Damage and slightly pulling them to the center. Meanwhile, generates 450 / 495 / 540 / 585 / 630 / 675 (+105% Total Magic Power) points of Shield for herself. This skill will spin 1 more time for each 50% Extra Attack Speed. If the target is a Minion, deal 50% Damage only.
+                    </p>
+
+                    <h4 class="ability-name">Imperial Justice</h4>
+                    <p>(Active)
+                        <br>
+                        Silvanna leaps toward an area, dealing 350 / 500 / 650 (+110% Total Magic Power) Magic Damage to enemies in the area of effect and slowing them down by 40% for 1.5 seconds.
+                        Meanwhile, Silvanna creates a Circle of Light, in which the enemy that is closest to the center will be restrained from escaping for the next 3.5 seconds.
+                    </p>
+
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Demon Shoes</li>
+                        <li>Feather of Heaven </li>
+                        <li>Fleeting Time</li>
+                        <li>Concentrated Energy</li>
+                        <li>Holy Crystal</li>
+                        <li>Blood Wings</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Sun.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Sun</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Endless Variety</h4>
+                    <p>(Active)
+                        <br>
+                        Sun hurls his Golden Staff towards a designated direction dealing 250 / 290 / 330 / 370 / 410 / 450 (+60%Total Physical Attack) Physical Damage. Enemy heroes or Creeps that are hit will be slowed by 60% for 2 seconds.
+                        When an Enemy Hero or Creep is hit, Sun summons a Doppelganger that inherits 35% of Sun's attributes and attack the nearest enemy. The Doppelganger lasts for 5 seconds.
+                    </p>
+
+                    <h4 class="ability-name">Instantaneous Move</h4>
+                    <p>(Active)
+                        <br>
+                        Sun and his Doppelganger charges and launches an instantaneous attack against an enemy unit, dealing 180 / 210 / 240 / 270 / 300 / 330 (+60% Total Physical Attack) points of Physical Damage.
+                        After casting this skill, Sun and his Doppleganger increases their Movement Speed by 30% for 2.5 seconds.
+                    </p>
+
+                    <h4 class="ability-name">Clone Techniques</h4>
+                    <p>(Active)
+                        <br>
+                        Sun temporarily disappears and then summons a Doppelganger that inherits 70% / 85% / 100% of his attributes that lasts for 12 seconds but they take more damage.
+                    </p>
+
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Warrior Boots</li>
+                        <li>Demon Hunter Sword</li>
+                        <li>Corrosion Scythe</li>
+                        <li>Endless Battle</li>
+                        <li>Brute Force Breastplate</li>
+                        <li>Blade of Despair</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h5>Developed by Group JIDA</h5>
+        </div>
+    </div>
+    
+    <script src="../bootstrap/jquery-3.5.1.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
