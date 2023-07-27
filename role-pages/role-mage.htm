@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="../images/Mythical_Glory.png">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/custom-css.css">
+    <title>ML Heroes</title>
+</head>
+<body>
+    <div id="main">
+        <div class="jumbotron bg-dark top">
+            <h1>Mage</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="collapse_target">
+                <span class="navbar-text"></span>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Finals_index.htm">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#assassin-modal" href="#">Assassin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#fighter-modal" href="#">Fighter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: cyan;" class="nav-link" data-toggle="modal" data-target="#mage-modal" href="#">Mage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#marksman-modal" href="#">Marksman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#support-modal" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#tank-modal" href="#">Tank</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="modal fade" id="assassin-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Assassin</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Assassin_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good assassin.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-assassin.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="fighter-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Fighter</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Fighter_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good fighter.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-fighter.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    
+        <div class="modal fade" id="mage-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Mage</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Mage_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good mage.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-mage.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="marksman-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Marksman</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Marksman_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good marksman.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-marksman.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="support-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Support</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Support_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good support.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-support.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tank-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Tank</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/roles-logo/Tank_Icon.png" alt="">
+                        <p class="modal-p">
+                            <br>
+                            Let us train to be a good tank.
+                            <br>
+                            Here's the guide.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a style="color: rgb(0, 160, 157)" class="nav-link" href="../role-pages/role-tank.htm">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row heroes-row">
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/lou yi.png" alt="">
+                    
+                    <br>
+                    <div class="col-md-12 bg-dark name-strip">
+                        <h2 class="headings">Lou Yi</h2>
+                    </div>
+                </div>
+    
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Dispersion</h4>
+                    <p>(Active)
+                        <br>
+                        Luo Yi casts the energy of Yang in a designated direction, dispersing upon the first hit, dealing 250 / 290 / 330 / 370 / 410 / 450 (+100% Magic Power) Magic Damage to the target and enemies behind in a fan-shaped area, and applying Yang to enemy heroes. Luo Yi gains a stack of Dispersion every 8 / 7.7 / 7.4 / 7.1 / 6.8 / 6.5 seconds, up to 4 stacks. Luo Yi gains 1 Dispersion Stack each time Yin-Yang Reaction happens. Upon usage the skill's mark will shift to Yin. Recharge time is affected by cooldown reduction (To clarify, only 1 Dispersion Stack can only be gained from the Yin-Yang Reaction between each instance of Dispersion - Dispersion or Dispersion - Rotation regardless of the number of enemy heroes marked that triggers the Yin-Yang Reaction)
+                    </p>
+                    <h4 class="ability-name">Rotation</h4>
+                    <p>(Active)
+                        <br>
+                        Rotation Yang Luo Yi summons the Fire of Yang in a designated area, dealing 250 / 270 / 290 / 310 / 330 / 350 (+50% Magic Power) Magic Damage on targets hit and slowing them by 60% for 0.5 seconds. The Fire of Yang lasts for 6 seconds, dealing 50 / 54 / 58 / 62 / 66 / 70 (+10% Magic Power) Magic Damage in 7 ticks every 0.7 seconds for a total damage over time of 350 / 378 / 406 / 434 / 462 / 490 (+70% Magic Power) Magic Damage and a total maximum damage of 600 / 648 / 696 / 744 / 792 / 840 (+120% Magic Power) Magic Damage.
+                    </p>
+                    <h4 class="ability-name">Diversion</h4>
+                    <p>(Active)
+                        <br>
+                        Yi creates a teleporting circle around herself. After 3 seconds, all allied heroes within the circle are teleported to a designated location within 18 / 23 / 28 Range.
+                        (Passive: Grants Luo Yi 2% / 6% / 10% cooldown reduction (additive, counts toward max cooldown))
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Demon Shoes</li>
+                        <li>Calamity Reaper</li>
+                        <li>Holy Crystal</li>
+                        <li>Clock of Destiny</li>
+                        <li>Ice Queen Wand</li>
+                        <li>Genius Wand</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/lunox.png" alt="">
+                    <br>
+                    <div class="col-md-12 bg-dark name-strip">
+                        <h2 class="headings">Lunox</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Starlight Pulse</h4>
+                    <p>(Active)
+                        <br>
+                        Lunox summons a rain of starlight upon nearby enemies and deals 200 (+110% Total Magic Power) points of Magic Damage, recovering 60 (+20% Total Magic Power) points of HP. The recovering effect doubles when the skill hits enemy heroes. Gains one stack of Power of Order after use.
+                    </p>
+                    <h4 class="ability-name">Chaos Assault</h4>
+                    <p>(Active)
+                        <br>
+                        Lunox unleashes chaos energy forward, dealing 240 (+120% Total Magic Power) points of Magic Damage and slows enemies by 10%. Lasts 1s. When attacking heroes. Lunox deals extra Magic Damage equal to 2.0% points of enemy's HP.
+                    </p>
+                    <h4 class="ability-name">Cosmic Fission</h4>
+                    <p>(Active)
+                        <br>
+                        When Lunox uses the power of Order and Chaos, she will deal 300 (+150% Total Magic Power) points of Magic Damage to the targets along the way and slowing them by 40%. Lasts 2s.
+                    </p>
+                    <h4 class="ability-name">Order & Chaos</h4>
+                    <p>(Active)
+                        <br>
+                        Lunox is twisted by the powers of Chaos and Order. Every time she uses her powers, they become stronger. When she uses the power of Order, she gains Brillance and deals continous damage in an invulnerable state. When she uses the power of Chaos, she gains Darkening and can blink in a designated direction, canceling the CD of Chaos Assault.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Demon Shoes</li>
+                        <li>Lightning Truncheon</li>
+                        <li>Clock of Destiny</li>
+                        <li>Concentrated Energy</li>
+                        <li>Winter Truncheon</li>
+                        <li>Holy Crystal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/kagura.jpg" alt="">
+                    <br>
+                    <div class="col-md-12 bg-dark name-strip">
+                        <h2 class="headings">Kagura</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Seimei Umbrella Open</h4>
+                    <p>(Active)
+                        <br>
+                        Kagura moves Seimei Umbrella to the designated area, dealing 330 (+150% Total Magic Power) points of Magic Damage to enemies along thje way and slowing them by 60%. Lasts 1s.
+                    </p>
+                    <h4 class="ability-name">Rasho Umbrella Flee</h4>
+                    <p>(Active)
+                        <br>
+                        With Seimei Umbrella, Kagura removes all Debuffs on her and moves in a designated direction, leaving the Umbrella behind.
+                    </p>
+                    <h4 class="ability-name">Yin-Yang Overturn</h4>
+                    <p>(Active)
+                        <br>
+                        With Seimei Umbrella, Kagura deals 260 (+120% Total Magic Power) points of Magic Damage, knocking back nearby enemies and slowing them by 65% for 1s.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Enchanted Talisma</li>
+                        <li>Magic Shoes</li>
+                        <li>Holy Crystal</li>
+                        <li>Devil Tears</li>
+                        <li>Blood Wings</li>
+                        <li>Immortality</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/karina.jpg" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Karina</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h2>
+                    <h4 class="ability-name">Dance of Death</h4>
+                        <p>(Active)
+                            <br>
+                            Karina brandishes her double swords, dealing 260 (+130% Total Magic Power) points of Magic Damage to surrounding enemies. Kills or Assists will reduce this skill's CD by 60%.</p>
+                    <h4 class="ability-name">Shadow Transition</h4>
+                        <p>(Active)
+                            <br>
+                            Karina rapidly rushes towards a target, dealing 430 (+220% Total Magic Power) points of Magic Damage. Kills will immediately reset this skill's CD while Assists will reduce the CD by 80%.
+                        </p>
+                    <h4 class="ability-name">Elusiveness</h4>
+                        <p>(Active)
+                            <br>
+                            Karina enters Elusiveness State for 3s, becoming immune to all Basic Attacks and speeding up by 35%. Her next Basic Attack will let her cast off Elusiveness State and deal extra 165 (+75% Total Magic Power) points of Magic Damage with Crit Damage. Target will be slowed by 40%. Lasts 2s. Kills or Assists will reduce this skill's CD by 60%.</p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Calamity Scythe</li>
+                        <li>Guardian Relic</li>
+                        <li>Astral Wand</li>
+                        <li>Arcane Boots</li>
+                        <li>Blood Wings</li>
+                        <li>Devil Tears</li>
+                        <li>Immortality</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/gusion.jpg" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Gusion</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Sword Spike</h4>
+                        <p>(Active)
+                            <br>
+                            Gusion throws a dagger in the targeted direction, dealing 200 (+50% Total Magic Power) points of Magic Damage to the first target. Use Again: Use again to move behind the target and deal 200 (+100% Total Magic Power) points of Magic Damage to them.
+                        </p>
+                    <h4 class="ability-name">Shadowblade Slaughter</h4>
+                        <p>(Active)
+                            <br>
+                            Gusion throws daggers forward, each dealing 110 (+50% Total Magic Power) points of Magic Damage to targets hit and slowing them for 2s. Use Again: Use again to recall daggers, each dealing 65 (+40% Total Magic Power) points of Magic Damage to enemies along the way.
+                        </p>
+                    <h4 class="ability-name">Incandescence</h4>
+                        <p>(Active)
+                            <br>
+                            Gusion dashes towards the targeted location, immediately reset the CD of Sword Spike and Shadowblade Slaughter. Use Again: Use again to dash a short distance in the targeted direction. AFter Shadowblade Slaughter being reset, Gusion will be able to immediately throw five daggers and recall ten daggers if the skill is used again.
+                        </p>
+                    <h3 class="headings">Build</h3>
+                        <ul>
+                            <li>Rapid Boots</li>
+                            <li>Calamity Reaper</li>
+                            <li>Glowing Wand</li>
+                            <li>Fleeting Time</li>
+                            <li>Concentrated Energy</li>
+                            <li>Holy Crystal</li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/violet.png" alt="">
+                    <br>
+                    <div class="col-sm-12 bg-dark name-strip">
+                        <h2 class="headings">Guinevere</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Energy Wave</h4>
+                    <p>(Active)
+                        <br>
+                        Guinevere sends an energy orb to the designated direction, dealing 300 (+130% Total Magic Power) points of Magic Damage to the enemies and slowing them by 50%. Lasts 1.2s. Meanwhile, the CD of her skills are reduced by 1s.
+                    </p>
+                    <h4 class="ability-name">Magic Thump</h4>
+                    <p>(Active)
+                        <br>
+                        Guinevere performs a thump to the designated place. If she hits enemies, she will knock them airborne by her super magic for 1s and deal 250 (+80% Total Magic Power) points of Magic Damage to them. Shortly after she uses this skill, she obtains new skill Spatial Migration.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Arcane Boots</li>
+                        <li>Calamity Reaper</li>
+                        <li>Necklace of Durance</li>
+                        <li>Fleeting Time</li>
+                        <li>Divine Glaive</li>
+                        <li>Holy Crystal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/kimmy.png" alt="">
+                    <br>
+                    <div class="col-sm-12 bg-dark name-strip">
+                        <h2 class="headings">Kimmy</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Energy Transformation</h4>
+                    <p>(Active)
+                        <br>
+                        Kimmy's Basic Attack will be changed into chemical Ball. Each Chemical Ball deals 19 (+40% Total Physical ATK)(+45% Total Magic Power) points of Magic Damage. If Kimmy fails to hit a target, the Chemical explodes upon travelling a certain distance, and deals the same damage to nearby enemies. This skill enjoys only 40% of Spell vamp. Use Again: Return to normal Basic Attack.
+                    </p>
+                    <h4 class="ability-name">Chemical Refinement</h4>
+                    <p>(Active)
+                        <br>
+                        Kimmy Shoots out the enhanced Chemical Spray and the recoil in turn pushes her backwards for a certain distance. The spray then falls down to the ground and increates contaminated areas. Enemies who walk on these areas will take 14 (+30% Total Physical ATK)(+40% Total Magic Power) points of Magic Damage every 0.5s and becoming slowed by 40%. Regenerates 40 points of energy using this skill.
+                    </p>
+                    <h4 class="ability-name">Maximum Charge</h4>
+                    <p>(Active)
+                        <br>
+                        Kimmy creates a Luminious Chemical Attacks after charging. Kimmy's Luminescent Attack travel a certain dsitance, dealing 238 (+180% Total Physical ATK)(+210% Total Magic Power) points of Magic Damage to enemy units and 198 (+150% Total Physical ATK)(+170% Total Magic Power) points of Magic Damage to enemies nearby. Regenerate 30 points of energy if Kimmy hits a target with this skill.
+                    </p>
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Raptor Machete</li>
+                        <li>Arcane Boots</li>
+                        <li>Blade of Despair</li>
+                        <li>Glowing Wand</li>
+                        <li>Ice Queen Wand</li>
+                        <li>Holy Crystal</li>
+                        <li>Immortality</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Eudora.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Eudora</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Forked Lightning</h4>
+                    <p>(Active)
+                        <br>
+                        Eudora casts forked lightning, dealing 400 / 450 / 500 / 550 / 600 / 650 (+150% Total Magic Power) Magic Damage to enemies in a fan-shaped area in front of her
+                    </p>
+
+                    <h4 class="ability-name">Electric Arrow</h4>
+                    <p>(Active)
+                        <br>
+                        Eudora launches a lightning bolt towards a target, dealing 350 / 370 / 390 / 410 / 430 / 450 (+80% Total Magic Power) Magic Damage, stunning the target for 1.2 seconds, and reducing the target's Magic Defense by 20 / 23 / 26 / 29 / 32 / 35 for 1.8 seconds.
+                    </p>
+
+                    <h4 class="ability-name">Thunder's Wrath</h4>
+                    <p>(Active)
+                        <br>
+                        Eudora summons a great lightning storm, dealing 480 / 660 / 840 (+180% Total Magic Power) Magic Damage to the target.
+                        Superconductor: If the target is affected by Superconductor, then dark clouds will be formed over the target's head. After a 0.8 second delay, lightning strikes down from the clouds, dealing 440 (+150% Total Magic Power) Magic Damage to enemies in the area of effect.
+                        Meanwhile, the lightning charges will spread on the ground toward nearby enemies dealing 360 / 495 / 630 (+150% Total Magic Power) Magic Damage.
+                    </p>
+
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Lightning Truncheon</li>
+                        <li>Demon Shoes</li>
+                        <li>Fleeting Time</li>
+                        <li>Holy Crystal</li>
+                        <li>Divine Glaive</li>
+                        <li>Blood Wings</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Odette.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Odette</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Avian Authority</h4>
+                    <p>(Active)
+                        <br>
+                        Odette concentrates energy to summon a swan to attack the enemy to deal 250 / 300 / 350 / 400 / 450 / 500 (+150% Total Magic Power) Magic Damage and slow enemy units by 70% for 2 seconds.
+                    </p>
+
+                    <h4 class="ability-name">Blue Nova</h4>
+                    <p>(Active)
+                        <br>
+                        Odette fires a magic energy ball forward in which if it has reached either its maximum range or hits a target, two extra energy balls will strike out to the sides, dealing 250 / 280 / 310 / 340 / 370 / 400 (+50% Total Magic Power) Magic Damage and immobilizing enemy units for 2 seconds.
+                    </p>
+
+                    <h4 class="ability-name">Swan Song</h4>
+                    <p>(Active)
+                        <br>
+                        Odette chants a song that summons an energy field that deals continuous damage, each time dealing 240 / 280 / 320 (+120% Total Magic Power) Magic Damage every 0.5 second for 5 seconds, for a maximum damage of 2400 / 2800 / 3200 (+1200% Total Magic Power) Magic Damage.
+                        Odette will gain 50% Damage Reduction while casting this skill and enemies will be affected with a 90% decaying slow for 2 seconds.
+                    </p>
+
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Demons Boots</li>
+                        <li>Glowing Wand</li>
+                        <li>Concentrated Energy</li>
+                        <li>Ice Queen Wand</li>
+                        <li>Holy Crystal</li>
+                        <li>Lightning Truncheon</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Vale.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Vale</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Wind Blade</h4>
+                    <p>(Active)
+                        <br>
+                        Vale unleashes two wind blades, each dealing 250 / 290 / 330 / 370 / 410 / 450 (+80% Total Magic Power) Magic Damage for a total damage of 500 / 580 / 660 / 740 / 820 / 900 (+160% Total Magic Power) Magic Damage.
+                        Windtalk : Vale can choose to increase the area of effect of Windblade or increase the damage of Windblade.
+                        Wind Blade: Scatter (area of effect option)
+                        The width of the two windblades' area of effect is increased significantly. The cooldown of this skill will also be set to 4 seconds.
+                    </p>
+
+                    <h4 class="ability-name">Windblow</h4>
+                    <p>(Active)
+                        <br>
+                        Vale sends a whirlwind forward that deals 410 / 450 / 490 / 530 / 570 / 610 (+120% Total Magic Power) Magic Damage and slows enemies by 40% for 2 seconds. Windtalk.png: Vale can choose to add a crowd control effect to Windblow or increase the damage of Windblow.
+                        Windblow: Control (crowd control effect option) Hitting Windblow will cause enemies to be knocked-up for 1 second.
+                    </p>
+
+                    <h4 class="ability-name">Windstorm</h4>
+                    <p>(Active)
+                        <br>
+                        Vale summons a windstorm in a designated area. After 1.5 seconds, the windstorm will explode, dealing 800 / 1000 / 1200 (+160% Magic Power) Magic Damage.
+                        Windtalk: Vale can choose to add a crowd control effect to Windstorm or increase the damage of Windstorm.
+                        Windstorm: Gather (crowd control effect option)
+                        For 2 seconds, the Windstorm will continuously pull and draw enemies towards the center of its eye before exploding
+                    </p>
+
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Arcane Boots </li>
+                        <li>Clock of Destiny</li>
+                        <li>Lightning Truncheon</li>
+                        <li>Genius wand</li>
+                        <li>Holy Crystal</li>
+                        <li>Blood wings </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Valir.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Valir</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Burst Fireball</h4>
+                    <p>(Active)
+                        <br>
+                        Valir casts a fireball at a designated direction and the fireball will explode upon hitting an enemy, dealing 235 / 270 / 305 / 340 / 375 / 410 (+80% Total Magic Power) Magic Damage to enemies within the explosion range and slowing them by 40% for 1 second.
+                        Meanwhile, it ignites the ground along the way, which leads to an explosion after several seconds, dealing 118 / 135 / 153 / 170 / 188 / 205 (+40% Total Magic Power) Magic Damage to enemies within the area of effect.
+                    </p>
+
+                    <h4 class="ability-name">Searing Torrent</h4>
+                    <p>(Active)
+                        <br>
+                        Valir unleashes a torrent of flames forward, knocking enemies back and dealing 200 / 220 / 240 / 260 / 280 / 300 (+60% Total Magic Power) points of Magic Damage to them.
+                        Vengeance Flame Enhancement: Valir will increase the damage of this skill to 260 / 286 / 312 / 338 / 364 / 390 (+52% Total Magic Power) Magic Damage and generate a firewall at its edge that lasts for 4 seconds. If an enemy is hit by the firewall, they will be slowed by 25% for 1 second and take 80 / 88 / 96 / 104 / 112 / 120 (+24% Total Magic Power) Magic Damage every 1 second.
+                    </p>
+
+                    <h4 class="ability-name">Vengeance Flame</h4>
+                    <p>(Active)
+                        <br>
+                        Valir removes all CC effects from him and condenses 4 Vengeance Flames around himself and increases his Movement Speed by 50%, decaying over 5 seconds.
+                        The Vengeance Flames will enhance Burst Fireball and Searing Torrent and increase Valir's damage by 30% for 9 seconds.
+                    </p>
+
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Demon Boots</li>
+                        <li>Glowing Wand</li>
+                        <li>Ice Queen Wand</li>
+                        <li>Necklace of Durance</li>
+                        <li>Winter Truncheon</li>
+                        <li>Courage Mask</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 content-hero">
+                <div class="mx-auto hero-pic">
+                    <img src="../images/heroes/Zhask.png" alt="">
+                    <br>
+                    <div class="col-sm-12 name-strip bg-dark">
+                        <h2 class="headings">Zhask</h2>
+                    </div>
+                </div>
+
+                <div class="mx-auto hero-description">
+                    <h3 class="headings">Abilities</h3>
+                    <h4 class="ability-name">Nightmaric Spawn</h4>
+                    <p>(Active)
+                        <br>
+                        Zhask summons the Nightmaric Spawn that inherits 70% / 80% / 90% / 100% of Zhask's Attributes in a designated location. The Nightmaric Spawn will attack enemies in its range, prioritizing the unit Zhask is currently attacking. Every time the Nightmaric Spawn deals 2 Basic Attack to an enemy, it will launch Death Ray, which will continuously slow the target.
+                    </p>
+
+                    <h4 class="ability-name">Mind Eater</h4>
+                    <p>(Active)
+                        <br>
+                        Zhask fires penetrating mental missile in the designated direction, dealing 300 / 380 / 460 / 540 (+100% Total Magic Power) points of Magic Damage to enemies along the way. If there is a Nightmaric Spawn nearby, it will also cast Mind Eater.png. If both of them hit the same target, then the target will be stunned for 0.5 seconds.
+                        Fusion Enhanced: Zhask and the Nightmaric Spawn combine the mental missile to deal 540 / 685 / 830 / 975 (+180% Total Magic Power) points of Magic Damage and stun enemies hit for 0.5 seconds.
+                    </p>
+
+                    <h4 class="ability-name">Hive Clones</h4>
+                    <p>(Active)
+                        <br>
+                        Zhask releases a swarm of Nightmaric Clones in a targeted direction and deal 110 / 140 / 170 / 200 (+50% Total Magic Power) points of Magic Damage to enemies on contact and reducing their Movement Speed by 80% for 1 second. If the Nightmaric Clones find no target, they will burrow into the ground and ambush enemies passing by.
+                    </p>
+
+                    <h4 class="ability-name">Dominator's Descent</h4>
+                    <p>(Active)
+                        <br>
+                        Zhask merges with the Nightmaric Spawn, becoming temporarily invulnerable as long as the Nightmaric Spawn stays alive. For the next 10 seconds, Zhask will also enhance the Nightmaric Spawn's attributes as well as Mind Eater and Hive Clones.
+                    </p>
+
+                    <h3 class="headings">Build</h3>
+                    <ul>
+                        <li>Magic Shoes </li>
+                        <li>Concentrated Energy</li>
+                        <li>Feather of Heaven</li>
+                        <li>Clock of Destiny</li>
+                        <li>Blood Wings</li>
+                        <li>Holy Crystal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h5>Developed by Group JIDA</h5>
+        </div>
+    </div>
+    
+    <script src="../bootstrap/jquery-3.5.1.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
